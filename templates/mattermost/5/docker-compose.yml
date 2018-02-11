@@ -16,7 +16,7 @@ mattermost:
     MM_SQLSETTINGS_DATASOURCE: ${mattermost_db_datasource}
     DB_HOST: databasehost
   external_links:
-  - ${databasehost_link}:databasehost
+    - ${databasehost_link}:databasehost
   ports:
     - ${mattermost_port}:80
   labels:
