@@ -1,6 +1,6 @@
 .catalog:
   name: "mattermost"
-  version: "3.7.3"
+  version: "4.6.1"
   description: "Mattermost is an open source, self-hosted Slack-alternative."
   questions:
       - variable: "mattermost_db_login"
