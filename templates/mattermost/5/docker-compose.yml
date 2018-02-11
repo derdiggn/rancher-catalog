@@ -13,6 +13,7 @@ mattermost:
     MM_PASSWORD: ${mattermost_db_password}
     MM_DBNAME: ${mattermost_db_name}
     MM_SQLSETTINGS_DRIVERNAME: ${mattermost_db_driver}
+    MM_SQLSETTINGS_DATASOURCE: ${mattermost_db_datasource}
     DB_HOST: databasehost
   external_links:
   - ${databasehost_link}:databasehost

@@ -23,7 +23,7 @@
         default: "mattermost"
       - variable: "mattermost_db_driver"
         description: "Mattermost database driver"
-        label: "Database name"
+        label: "Database Driver"
         type: "string"
         required: true
         default: "mysql"
